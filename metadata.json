@@ -1,0 +1,6 @@
+{
+  "name": "PetsCelly - Curso Profissional de Banhista",
+  "description": "Aprenda uma profissão que pode caber na sua rotina com o Curso Profissional de Banhista da PetsCelly. Formação prática presencial em turmas de até 3 alunos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
