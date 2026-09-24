@@ -38,32 +38,32 @@ export default function App() {
         {/* 1. Hero: Primeira Dobra */}
         <Hero />
 
-        {/* 2. Uma Habilidade Que Pode Gerar Renda Extra (Valores e Simulação) */}
+        {/* 2. Corpo Docente: Quem Vai Ensinar (Leandro Claudio e Marcelli) */}
+        <Instructor />
+
+        {/* 3. Uma Habilidade Que Pode Gerar Renda Extra (Valores e Simulação) */}
         <IncomeSimulation />
 
-        {/* 3. Negócios que a PetsCelly Ajudou a Construir (Carrossel com Royal Pet Spa) */}
+        {/* 4. Casos Reais: Onde Nosso Curso de Banhista Pode Te Levar (Royal Pet Spa e Nina Banho e Tosa) */}
         <BusinessesHelped />
 
-        {/* 4. Apresentação do Curso */}
+        {/* 5. Apresentação do Curso */}
         <CoursePresentation />
 
-        {/* 5. O Grande Diferencial: Prática no Banho e Tosa */}
+        {/* 6. O Grande Diferencial: Prática no Banho e Tosa */}
         <PracticalDifferentiator />
 
-        {/* 6. O Que Você Vai Aprender (Módulos 1 ao 8) */}
+        {/* 7. O Que Você Vai Aprender (Módulos 1 ao 8) */}
         <Curriculum />
 
-        {/* 7. Como Funciona o Curso */}
+        {/* 8. Como Funciona o Curso */}
         <CourseStructure />
 
-        {/* 8. Cronograma: 4 Semanas */}
+        {/* 9. Cronograma: 4 Semanas */}
         <TimelineSchedule />
 
-        {/* 9. Por Que Apenas 3 Alunos? */}
+        {/* 10. Por Que Apenas 3 Alunos? */}
         <SmallClasses />
-
-        {/* 10. Quem Vai Ensinar: Leandro Claudio e Marcelli */}
-        <Instructor />
 
         {/* 11. Prática Com Animais Reais */}
         <RealPractice />

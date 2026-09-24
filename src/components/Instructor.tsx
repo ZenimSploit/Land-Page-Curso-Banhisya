@@ -10,7 +10,7 @@ export const Instructor: React.FC = () => {
   );
 
   return (
-    <section id="quem-ensina" className="py-20 sm:py-28 bg-[#07090E] border-t border-white/[0.07] relative overflow-hidden">
+    <section id="quem-ensina" className="py-20 sm:py-28 bg-[#0A0D16] border-t border-white/[0.08] relative overflow-hidden">
       {/* Ambient background glow */}
       <div
         className="absolute top-1/3 left-1/4 -translate-y-1/2 w-[550px] h-[550px] bg-red-600/[0.08] rounded-full blur-[150px] pointer-events-none"

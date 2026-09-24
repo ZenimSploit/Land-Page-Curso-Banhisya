@@ -10,11 +10,11 @@ export const Navbar: React.FC = () => {
   );
 
   const navItems = [
+    { label: 'Quem Ensina', href: '#quem-ensina' },
     { label: 'Renda Extra', href: '#renda' },
     { label: 'Casos Reais', href: '#negocios-criados' },
     { label: 'O Curso', href: '#o-curso' },
     { label: 'Módulos', href: '#conteudo' },
-    { label: 'Cronograma', href: '#cronograma' },
     { label: 'Investimento', href: '#investimento' },
     { label: 'Dúvidas', href: '#faq' },
   ];
