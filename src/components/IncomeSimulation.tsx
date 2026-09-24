@@ -203,6 +203,23 @@ export const IncomeSimulation: React.FC = () => {
           </p>
         </div>
 
+        {/* Course Impact & Life Direction Callout */}
+        <div className="mt-8 max-w-4xl mx-auto p-4 rounded-xl bg-gradient-to-r from-red-950/30 via-[#101420] to-amber-950/20 border border-red-500/20 text-xs text-slate-300 leading-relaxed flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div className="flex items-center gap-2.5">
+            <Sparkles className="w-4 h-4 text-red-400 shrink-0" />
+            <span>
+              <strong className="text-white font-semibold">Uma nova direção profissional:</strong> Nossa formação de banhista é tão completa e prática que já foi o pontapé inicial para alunos que hoje têm até sua própria loja (como Royal Pet Spa e Nina Banho e Tosa).
+            </span>
+          </div>
+          <a
+            href="#negocios-criados"
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-red-600/20 hover:bg-red-600/30 border border-red-500/30 text-xs font-semibold text-red-300 hover:text-white transition-all shrink-0"
+          >
+            <span>Ver Casos Reais</span>
+            <ArrowRight className="w-3.5 h-3.5" />
+          </a>
+        </div>
+
         {/* Action Link */}
         <div className="mt-10 text-center">
           <a

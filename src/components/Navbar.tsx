@@ -11,6 +11,7 @@ export const Navbar: React.FC = () => {
 
   const navItems = [
     { label: 'Renda Extra', href: '#renda' },
+    { label: 'Casos Reais', href: '#negocios-criados' },
     { label: 'O Curso', href: '#o-curso' },
     { label: 'Módulos', href: '#conteudo' },
     { label: 'Cronograma', href: '#cronograma' },

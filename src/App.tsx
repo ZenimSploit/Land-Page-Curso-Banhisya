@@ -15,6 +15,7 @@ import { TimelineSchedule } from './components/TimelineSchedule';
 import { SmallClasses } from './components/SmallClasses';
 import { Instructor } from './components/Instructor';
 import { RealPractice } from './components/RealPractice';
+import { BusinessesHelped } from './components/BusinessesHelped';
 import { TargetAudience } from './components/TargetAudience';
 import { CertificateSection } from './components/CertificateSection';
 import { PricingSection } from './components/PricingSection';
@@ -37,34 +38,37 @@ export default function App() {
         {/* 1. Hero: Primeira Dobra */}
         <Hero />
 
-        {/* 2. Uma Habilidade Que Pode Gerar Renda Extra */}
+        {/* 2. Uma Habilidade Que Pode Gerar Renda Extra (Valores e Simulação) */}
         <IncomeSimulation />
 
-        {/* 3. Apresentação do Curso */}
+        {/* 3. Negócios que a PetsCelly Ajudou a Construir (Carrossel com Royal Pet Spa) */}
+        <BusinessesHelped />
+
+        {/* 4. Apresentação do Curso */}
         <CoursePresentation />
 
-        {/* 4. O Grande Diferencial: Prática no Banho e Tosa */}
+        {/* 5. O Grande Diferencial: Prática no Banho e Tosa */}
         <PracticalDifferentiator />
 
-        {/* 5. O Que Você Vai Aprender (Módulos 1 ao 8) */}
+        {/* 6. O Que Você Vai Aprender (Módulos 1 ao 8) */}
         <Curriculum />
 
-        {/* 6. Como Funciona o Curso */}
+        {/* 7. Como Funciona o Curso */}
         <CourseStructure />
 
-        {/* 7. Cronograma: 4 Semanas */}
+        {/* 8. Cronograma: 4 Semanas */}
         <TimelineSchedule />
 
-        {/* 8. Por Que Apenas 3 Alunos? */}
+        {/* 9. Por Que Apenas 3 Alunos? */}
         <SmallClasses />
 
-        {/* 9. Quem Vai Ensinar: Leandro Claudio e Marcelli */}
+        {/* 10. Quem Vai Ensinar: Leandro Claudio e Marcelli */}
         <Instructor />
 
-        {/* 10. Prática Com Animais Reais */}
+        {/* 11. Prática Com Animais Reais */}
         <RealPractice />
 
-        {/* 11. Para Quem É Esse Curso */}
+        {/* 12. Para Quem É Esse Curso */}
         <TargetAudience />
 
         {/* 12. Certificado de Conclusão */}
