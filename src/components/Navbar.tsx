@@ -19,18 +19,22 @@ export const Navbar: React.FC = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-[#07090E]/80 backdrop-blur-xl border-b border-white/[0.08] transition-all">
+    <header className="sticky top-0 z-50 w-full bg-[#07090E]/90 backdrop-blur-xl border-b border-white/[0.08] transition-all">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Brand Name Text: CURSO BANHISTA PROFISSIONAL PETSCELLY */}
           <a
             href="#"
             className="flex items-center group transition-transform duration-200 hover:scale-[1.01]"
             aria-label="CURSO BANHISTA PROFISSIONAL PETSCELLY"
           >
-            <span className="font-display font-black text-xs sm:text-sm md:text-base lg:text-lg tracking-wider text-white uppercase flex items-center gap-1.5 select-none">
-              <span>CURSO BANHISTA PROFISSIONAL</span>
-              <span className="text-red-500 drop-shadow-[0_0_12px_rgba(225,29,42,0.6)]">PETSCELLY</span>
+            <span className="font-display font-black tracking-tight sm:tracking-wider text-white uppercase flex flex-col sm:flex-row sm:items-center sm:gap-1.5 leading-tight select-none">
+              <span className="text-[10px] xs:text-[11px] sm:text-xs md:text-sm lg:text-base text-slate-200">
+                CURSO BANHISTA PROFISSIONAL
+              </span>
+              <span className="text-xs xs:text-sm sm:text-base lg:text-lg text-red-500 drop-shadow-[0_0_12px_rgba(225,29,42,0.6)]">
+                PETSCELLY
+              </span>
             </span>
           </a>
 
@@ -68,25 +72,25 @@ export const Navbar: React.FC = () => {
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile Menu Button - 44px minimum touch targets */}
           <div className="flex sm:hidden items-center gap-2">
             <a
               href={navWhatsAppUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-lg bg-emerald-600 text-white"
+              className="w-11 h-11 rounded-xl bg-emerald-600 active:bg-emerald-700 text-white flex items-center justify-center shadow-md shadow-emerald-950/40"
               aria-label="WhatsApp"
             >
-              <MessageCircle className="w-5 h-5" />
+              <MessageCircle className="w-5 h-5 fill-current" />
             </a>
 
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 rounded-xl text-slate-400 hover:text-white hover:bg-white/[0.06] transition-colors"
+              className="w-11 h-11 rounded-xl text-slate-300 hover:text-white bg-white/[0.04] active:bg-white/[0.1] border border-white/[0.08] flex items-center justify-center transition-colors"
               aria-label={mobileMenuOpen ? 'Fechar menu' : 'Abrir menu'}
             >
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>
           </div>
         </div>
@@ -94,10 +98,10 @@ export const Navbar: React.FC = () => {
 
       {/* Mobile Dropdown Menu */}
       {mobileMenuOpen && (
-        <div className="sm:hidden bg-[#0B0D15]/95 backdrop-blur-2xl border-b border-white/[0.08] px-4 pt-3 pb-6 animate-in slide-in-from-top-2 duration-200">
-          <div className="mb-3 px-3 py-2 rounded-lg bg-red-950/40 border border-red-500/20 text-xs font-semibold text-red-300 flex items-center gap-2">
+        <div className="sm:hidden bg-[#090C14]/98 backdrop-blur-2xl border-b border-white/[0.1] px-4 pt-3 pb-6 animate-in slide-in-from-top-2 duration-200">
+          <div className="mb-3 px-3 py-2 rounded-xl bg-red-950/50 border border-red-500/30 text-xs font-semibold text-red-200 flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
-            <span>Turma Inaugural: Apenas 3 vagas presenciais</span>
+            <span>Turma Inaugural: Apenas 3 vagas em São José/SC</span>
           </div>
 
           <div className="space-y-1">
@@ -106,7 +110,7 @@ export const Navbar: React.FC = () => {
                 key={item.href}
                 href={item.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-2 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-white/[0.06] transition-colors"
+                className="flex items-center min-h-[44px] px-3.5 py-2.5 rounded-xl text-sm font-medium text-slate-200 hover:text-white hover:bg-white/[0.08] active:bg-white/[0.12] transition-colors"
               >
                 {item.label}
               </a>
@@ -119,9 +123,9 @@ export const Navbar: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}
-              className="btn-glow-emerald flex items-center justify-center gap-2 w-full py-3 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-bold shadow-lg shadow-emerald-950/40"
+              className="btn-glow-emerald flex items-center justify-center gap-2.5 w-full min-h-[48px] py-3 px-4 rounded-xl bg-emerald-600 active:bg-emerald-700 text-white text-sm font-bold shadow-lg shadow-emerald-950/40"
             >
-              <MessageCircle className="w-4 h-4 text-emerald-100" />
+              <MessageCircle className="w-4 h-4 text-emerald-100 fill-current" />
               <span>Falar no WhatsApp (48) 99929-3654</span>
             </a>
           </div>

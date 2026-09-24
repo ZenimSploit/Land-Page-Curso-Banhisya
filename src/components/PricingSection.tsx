@@ -51,7 +51,7 @@ export const PricingSection: React.FC = () => {
           {/* Subtle outer glow border */}
           <div className="absolute -inset-1 bg-gradient-to-r from-red-600/40 via-rose-500/30 to-amber-500/20 rounded-3xl blur-xl opacity-75 group-hover:opacity-100 transition-opacity duration-500" />
 
-          <div className="relative rounded-3xl glass-panel-highlight border-2 border-red-500/50 shadow-2xl p-6 sm:p-10 overflow-hidden">
+          <div className="relative rounded-3xl glass-panel-highlight border-2 border-red-500/50 shadow-2xl p-5 sm:p-10 overflow-hidden">
             {/* Top banner tag */}
             <div className="absolute top-0 right-0 left-0 bg-gradient-to-r from-red-700 via-red-600 to-red-700 py-1.5 text-center text-white text-[11px] font-bold uppercase tracking-[0.2em] shadow-sm">
               Condição Especial da Primeira Turma
@@ -63,14 +63,14 @@ export const PricingSection: React.FC = () => {
               </span>
 
               {/* Big Price */}
-              <div className="mt-3 flex items-baseline justify-center gap-2">
-                <span className="text-2xl sm:text-3xl font-extrabold text-slate-400 font-display">
+              <div className="mt-3 flex items-baseline justify-center gap-1.5 xs:gap-2">
+                <span className="text-xl xs:text-2xl sm:text-3xl font-extrabold text-slate-400 font-display">
                   R$
                 </span>
-                <span className="font-display text-6xl sm:text-7xl font-black text-white tracking-tight tabular-nums drop-shadow-[0_0_30px_rgba(225,29,42,0.35)]">
+                <span className="font-display text-5xl xs:text-6xl sm:text-7xl font-black text-white tracking-tight tabular-nums drop-shadow-[0_0_30px_rgba(225,29,42,0.35)]">
                   997
                 </span>
-                <span className="text-xl sm:text-2xl font-bold text-slate-300">
+                <span className="text-lg xs:text-xl sm:text-2xl font-bold text-slate-300">
                   à vista
                 </span>
               </div>
@@ -81,7 +81,7 @@ export const PricingSection: React.FC = () => {
               </div>
 
               {/* Indicação visual solicitada: 8 aulas presenciais • 4 semanas • máximo 3 alunos • certificado de conclusão */}
-              <div className="mt-5 inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-red-950/80 via-red-900/60 to-red-950/80 border border-red-500/40 text-xs sm:text-sm font-display font-extrabold text-red-200 shadow-[0_0_20px_-5px_rgba(225,29,42,0.4)]">
+              <div className="mt-5 inline-flex flex-wrap items-center justify-center gap-2 px-3.5 py-2.5 rounded-xl bg-gradient-to-r from-red-950/80 via-red-900/60 to-red-950/80 border border-red-500/40 text-xs sm:text-sm font-display font-extrabold text-red-200 shadow-[0_0_20px_-5px_rgba(225,29,42,0.4)] max-w-full text-center">
                 <Award className="w-4 h-4 text-red-400 shrink-0" />
                 <span>8 aulas presenciais • 4 semanas • máximo 3 alunos • certificado de conclusão</span>
               </div>

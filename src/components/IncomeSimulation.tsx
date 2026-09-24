@@ -99,9 +99,9 @@ export const IncomeSimulation: React.FC = () => {
               <div
                 key={card.days}
                 onClick={() => setSelectedPlan(card.days)}
-                className={`cursor-pointer rounded-2xl p-6 sm:p-8 flex flex-col justify-between transition-all duration-300 relative ${
+                className={`cursor-pointer rounded-2xl p-5 sm:p-8 flex flex-col justify-between transition-all duration-300 relative ${
                   card.highlight
-                    ? 'glass-panel-highlight border-red-500/50 shadow-[0_0_40px_-10px_rgba(225,29,42,0.25)] scale-[1.02] md:scale-105'
+                    ? 'glass-panel-highlight border-red-500/50 shadow-[0_0_40px_-10px_rgba(225,29,42,0.25)] md:scale-105'
                     : 'glass-panel glass-panel-hover'
                 }`}
               >

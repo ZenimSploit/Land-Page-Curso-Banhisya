@@ -19,33 +19,33 @@ export const SmallClasses: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-14 items-center">
           {/* Left Column: Visual representation of 3 dedicated stations in modern tech dark style */}
           <div className="lg:col-span-6 order-2 lg:order-1">
-            <div className="glass-panel-highlight rounded-3xl p-8 sm:p-10 border border-red-500/40 relative shadow-2xl">
-              <div className="flex items-center justify-between mb-4">
-                <span className="text-xs font-mono font-bold uppercase tracking-widest text-red-400">
+            <div className="glass-panel-highlight rounded-2xl sm:rounded-3xl p-4 xs:p-6 sm:p-10 border border-red-500/40 relative shadow-2xl">
+              <div className="flex items-center justify-between mb-4 gap-2">
+                <span className="text-[11px] sm:text-xs font-mono font-bold uppercase tracking-wider sm:tracking-widest text-red-400">
                   TURMA EXCLUSIVA DE 3 ALUNOS
                 </span>
-                <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-red-950/80 text-red-300 border border-red-500/30">
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-red-950/80 text-red-300 border border-red-500/30 shrink-0">
                   100% Presencial
                 </span>
               </div>
 
               {/* 3 Student Stations */}
-              <div className="grid grid-cols-3 gap-3 sm:gap-4 text-center my-6">
+              <div className="grid grid-cols-3 gap-2 xs:gap-3 sm:gap-4 text-center my-4 sm:my-6">
                 {[1, 2, 3].map((num) => (
                   <div
                     key={num}
-                    className="p-5 rounded-2xl bg-[#0C0F18]/90 border border-white/[0.08] hover:border-red-500/50 shadow-md flex flex-col items-center justify-center transition-all duration-300 group hover:scale-[1.03]"
+                    className="p-2.5 xs:p-3.5 sm:p-5 rounded-xl sm:rounded-2xl bg-[#0C0F18]/90 border border-white/[0.08] hover:border-red-500/50 shadow-md flex flex-col items-center justify-center transition-all duration-300 group hover:scale-[1.03]"
                   >
-                    <div className="w-12 h-12 rounded-xl bg-red-950/70 border border-red-500/30 text-red-400 font-extrabold flex items-center justify-center text-lg mb-2 font-mono group-hover:shadow-[0_0_15px_rgba(225,29,42,0.4)] transition-all">
+                    <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-red-950/70 border border-red-500/30 text-red-400 font-extrabold flex items-center justify-center text-xs xs:text-sm sm:text-lg mb-1.5 sm:mb-2 font-mono group-hover:shadow-[0_0_15px_rgba(225,29,42,0.4)] transition-all">
                       0{num}
                     </div>
-                    <span className="text-xs font-bold text-white">
+                    <span className="text-[10px] xs:text-xs font-bold text-white leading-tight">
                       Aluno {num}
                     </span>
-                    <span className="text-[10px] text-slate-400 mt-0.5 font-medium">
-                      Supervisão Direta
+                    <span className="text-[9px] sm:text-[10px] text-slate-400 mt-0.5 font-medium leading-tight">
+                      Supervisão
                     </span>
-                    <div className="mt-2 flex items-center gap-1 text-[9px] text-emerald-400 font-semibold">
+                    <div className="mt-1.5 sm:mt-2 flex items-center gap-1 text-[8px] xs:text-[9px] text-emerald-400 font-semibold">
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
                       <span>Ativo</span>
                     </div>

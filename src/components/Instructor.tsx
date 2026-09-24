@@ -45,9 +45,9 @@ export const Instructor: React.FC = () => {
             <div className="absolute top-0 right-0 w-48 h-48 bg-red-600/[0.08] rounded-full blur-2xl pointer-events-none" />
             <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-red-500/0 via-red-500/50 to-red-500/0" />
 
-            <div className="p-6 sm:p-8 flex-1 flex flex-col">
+            <div className="p-5 sm:p-8 flex-1 flex flex-col">
               {/* Photo & Role Header */}
-              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 pb-6 border-b border-white/[0.08]">
+              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5 sm:gap-6 pb-6 border-b border-white/[0.08]">
                 <div className="relative shrink-0">
                   <div className="w-32 h-32 sm:w-36 sm:h-36 rounded-2xl overflow-hidden border-2 border-red-500/40 shadow-xl shadow-red-950/40 bg-[#0E121B]">
                     <img
@@ -130,9 +130,9 @@ export const Instructor: React.FC = () => {
             <div className="absolute top-0 right-0 w-48 h-48 bg-emerald-600/[0.08] rounded-full blur-2xl pointer-events-none" />
             <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-emerald-500/0 via-emerald-500/50 to-emerald-500/0" />
 
-            <div className="p-6 sm:p-8 flex-1 flex flex-col">
+            <div className="p-5 sm:p-8 flex-1 flex flex-col">
               {/* Photo & Role Header */}
-              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 pb-6 border-b border-white/[0.08]">
+              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5 sm:gap-6 pb-6 border-b border-white/[0.08]">
                 <div className="relative shrink-0">
                   <div className="w-32 h-32 sm:w-36 sm:h-36 rounded-2xl overflow-hidden border-2 border-emerald-500/40 shadow-xl shadow-emerald-950/40 bg-[#0E121B]">
                     <img

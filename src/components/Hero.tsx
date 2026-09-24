@@ -29,15 +29,15 @@ export const Hero: React.FC = () => {
           {/* Left Column: Copy & High-impact Headings */}
           <div className="lg:col-span-7 flex flex-col items-start text-left z-10">
             {/* Tech unboxed metadata badge */}
-            <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-[#131724]/90 border border-white/[0.08] text-xs font-semibold tracking-wide text-slate-300 mb-6 shadow-inner">
-              <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse shadow-[0_0_8px_#ef4444]" />
+            <div className="inline-flex flex-wrap items-center gap-2 px-3 py-1.5 rounded-full bg-[#131724]/90 border border-white/[0.08] text-[11px] sm:text-xs font-semibold tracking-wide text-slate-300 mb-5 sm:mb-6 shadow-inner max-w-full">
+              <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse shadow-[0_0_8px_#ef4444] shrink-0" />
               <span className="text-white font-bold uppercase">Curso Banhista Profissional PetsCelly</span>
               <span className="text-slate-500">/</span>
               <span className="text-red-400">Presencial & Prático</span>
             </div>
 
             {/* Main Headline */}
-            <h1 className="font-display text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.1] text-balance">
+            <h1 className="font-display text-2xl xs:text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.15] sm:leading-[1.1] text-balance">
               E SE O SEU AMOR POR ANIMAIS PUDESSE SE TRANSFORMAR EM UMA{' '}
               <span className="relative inline-block">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-rose-400 to-amber-300 drop-shadow-[0_0_35px_rgba(225,29,42,0.35)]">
@@ -48,12 +48,12 @@ export const Hero: React.FC = () => {
             </h1>
 
             {/* Subheadline */}
-            <p className="mt-6 text-xl sm:text-2xl font-bold text-slate-100 font-display">
+            <p className="mt-4 sm:mt-6 text-lg sm:text-2xl font-bold text-slate-100 font-display">
               Aprenda uma profissão que pode caber na sua rotina.
             </p>
 
             {/* Supporting paragraph */}
-            <p className="mt-3 text-base sm:text-lg text-slate-400 max-w-2xl leading-relaxed">
+            <p className="mt-2.5 sm:mt-3 text-sm sm:text-lg text-slate-400 max-w-2xl leading-relaxed">
               Desenvolva uma habilidade prática para atuar como banhista freelancer em pet shops ou iniciar sua caminhada no mercado pet.
             </p>
 
@@ -176,7 +176,7 @@ export const Hero: React.FC = () => {
                 <img
                   src={heroImage}
                   alt="Ambiente 100% Real - Espaço de Banho e Tosa profissional na PetsCelly São José/SC"
-                  className="w-full h-[420px] sm:h-[480px] object-cover object-center scale-[1.01] hover:scale-105 transition-transform duration-700"
+                  className="w-full h-[320px] xs:h-[380px] sm:h-[480px] object-cover object-center scale-[1.01] hover:scale-105 transition-transform duration-700"
                 />
 
                 {/* Dark gradient overlay for typography readability */}
