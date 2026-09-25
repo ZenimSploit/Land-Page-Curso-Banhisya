@@ -59,7 +59,7 @@ export const Navbar: React.FC = () => {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500" />
               </span>
-              <span>Turma Inaugural • 3 Vagas</span>
+              <span>Turma Inaugural: Início 05/10 • 3 Vagas</span>
             </div>
 
             <a
@@ -102,7 +102,7 @@ export const Navbar: React.FC = () => {
         <div className="sm:hidden bg-[#090C14]/98 backdrop-blur-2xl border-b border-white/[0.1] px-4 pt-3 pb-6 animate-in slide-in-from-top-2 duration-200">
           <div className="mb-3 px-3 py-2 rounded-xl bg-red-950/50 border border-red-500/30 text-xs font-semibold text-red-200 flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
-            <span>Turma Inaugural: Apenas 3 vagas em São José/SC</span>
+            <span>Turma Inaugural: Início 05/10 • Apenas 3 vagas em São José/SC</span>
           </div>
 
           <div className="space-y-1">

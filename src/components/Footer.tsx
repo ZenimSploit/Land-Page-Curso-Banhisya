@@ -14,7 +14,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenTerms }) =>
   );
 
   return (
-    <footer className="bg-[#050609] border-t border-white/[0.08] text-slate-400 text-xs sm:text-sm pt-16 pb-28 sm:pb-16 relative overflow-hidden">
+    <footer className="bg-[#050609] border-t border-white/[0.08] text-slate-400 text-xs sm:text-sm pt-16 pb-32 sm:pb-24 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-white/[0.06]">
           {/* Brand info */}

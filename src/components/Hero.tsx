@@ -98,10 +98,10 @@ export const Hero: React.FC = () => {
 
               <div className="flex items-center justify-between gap-2 mb-2">
                 <span className="text-xs font-mono font-bold uppercase tracking-wider text-red-400">
-                  TURMA INAUGURAL
+                  TURMA INAUGURAL • INÍCIO 05/10
                 </span>
                 <span className="px-2 py-0.5 rounded bg-red-950/80 border border-red-500/30 text-[10px] font-bold text-red-300 uppercase tracking-wider">
-                  Condição Exclusiva
+                  Apenas 3 Vagas
                 </span>
               </div>
 
